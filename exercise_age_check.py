@@ -20,7 +20,7 @@ def age_check():
     """
     edad = int(input())
     limite = int(input())
-    if (edad > 0 and limite > 0) and edad > limite:
+    if (edad > 0 and limite > 0) and edad >= limite:
         print("Eres mayor de edad")
 
     elif (edad > 0 and limite > 0) and edad < limite:
@@ -29,4 +29,4 @@ def age_check():
     else:
         print("Entrada invalida")
     pass
-# age_check()
+#age_check()
